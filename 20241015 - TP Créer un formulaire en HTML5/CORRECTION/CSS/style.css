@@ -1,0 +1,38 @@
+/* Commentaire */
+
+/* propriété:valeur; */
+
+/* Selecteur : permet de selectionner une ou plusieurs balises */
+
+/* par type */
+
+h1 {
+    text-decoration: underline;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* récupération par classe */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+#buttonConnection {
+    margin-top: 10px;
+}

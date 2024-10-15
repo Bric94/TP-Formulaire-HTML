@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP - Formulaire en HTML5</title>
+</head>
+
+<body>
+    <h2>Formulaire d'inscription</h2>
+
+    <form action="">
+
+        <!--Prénom-->
+        <label style="font-style: italic;" for="fname">Prénom :</label><br>
+        <input type="text" id="fname" name="fname" value="Votre prénom"><br><br>
+
+        <!--Nom-->
+        <label style="font-style: italic;" for="lname">Nom :</label><br>
+        <input type="text" id="lname" name="lname" value="Votre nom"><br><br>
+
+        <!--Birthday-->
+        <label style="font-style: italic;" for="birthday">Date de naissance :</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <!--Téléphone-->
+        <label style="font-style: italic;" for="phone">Téléphone :</label><br>
+        <input type="tel" id="phone" name="phone" value="Votre téléphone" /><br><br>
+
+        <!--Ville-->
+        <label style="font-style: italic;" for="city">Ville :</label><br>
+        <input list="Villes" id="city" name="city" >
+        <datalist id="Villes">
+            <option value="Paris">Paris</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Nice">Nice</option>
+            <option value="Cannes">Cannes</option>
+            <option value="Vallauris">Vallauris</option><br><br>
+        </datalist><br><br>
+
+        <!--Pays-->
+        <label style="font-style: italic;" for="country">Pays:</label><br>
+        <input type="text" id="country" name="country" value="Votre pays"><br><br>
+
+        <!--Adresse-->
+        <label style="font-style: italic;" for="fname">Prénom :</label><br>
+        <input type="text" id="fname" name="fname" value="Votre prénom"><br><br>
+
+        <!--Code postale-->
+        <label style="font-style: italic;" for="postcode">Code Postale :</label><br>
+        <input type="text" id="postcode" name="postcode" value="Doe"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
+
+<!--
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+-->
